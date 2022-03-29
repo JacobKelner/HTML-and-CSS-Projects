@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<link rel"stylesheet" type="text/css" href="CSS_Table.css">
+	</head>
+	<body>
+		<h1>NBA Accolades Table</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Player</th>
+				<th>Rings</th>
+				<th>All-Star Games</th>
+				<th>All-NBA Team Selections</th>
+			</tr>
+			<tr>
+				<td>Lebron James</td>
+				<td>4</td>
+				<td>18</td>
+				<td>17</td>
+			</tr>
+			<tr>
+				<td>Michael Jordan</td>
+				<td>6</td>
+				<td>14</td>
+				<td>11</td>
+			</tr>
+		</table>
+	</body>
+</html>
