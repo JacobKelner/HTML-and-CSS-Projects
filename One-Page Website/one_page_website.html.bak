@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Luxury Dealership</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+	
+	<!--NAV-->
+	<div>
+		<div>
+			<nav>
+				<a href="#home" id="link">HOME</a>
+				<a href="#gallery">GALLERY</a>
+				<a href="#contact">CONTACT</a>
+			</nav>
+		</div>
+	</div>
+	<!--END NAV-->
+	
+	<!--HOME-->
+	
+	<div id="home">
+	</div>
+		<div>
+			<div>
+				<span>Portland Luxury Dealership</span>
+			</div>
+		</div>
+	</div>
+	<!--END HOME-->
+	
+	<!--GALLERY-->
+	<section>
+		<div id="gallery">
+		</div>
+			<h1>Gallery</h1>
+			<div>
+			
+			<!--PHOTO CONTAINER 1-->
+			<div>
+				<div>
+					<img src="./1_pg_website_images/luxury_images_1.jpg" width="370"
+					height="320" alt="Lamborghini Urus">
+					<div>
+						<h3>Click to View</h3>
+						<p>We have some of the finest vehicles in the nation! Come and see our inventory for yourself, and book an appointment now!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--END PHOTO CONTAINER 1-->
+			
+				<!--PHOTO CONTAINER 2-->
+			<div>
+				<div>
+					<img src="./1_pg_website_images/luxury_images_2.jpg" width="370"
+					height="320" alt="Bugatti">
+					<div>
+						<h3>Click to View</h3>
+						<p>We have some of the finest vehicles in the nation! Come and see our inventory for yourself, and book an appointment now!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--END PHOTO CONTAINER 2-->
+			
+			<!--PHOTO CONTAINER 3-->
+			<div>
+				<div>
+					<img src="./1_pg_website_images/luxury_images_3.jpg" width="370"
+					height="320" alt="Mercedes-Benz G-Wagon">
+					<div>
+						<h3>Click to View</h3>
+						<p>We have some of the finest vehicles in the nation! Come and see our inventory for yourself, and book an appointment now!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--END PHOTO CONTAINER 3-->	
+			
+			<!--PHOTO CONTAINER 4-->
+			<div>
+				<div>
+					<img src="./1_pg_website_images/luxury_images_4.jpg" width="370"
+					height="320" alt="Mercedes-Benz AMG">
+					<div>
+						<h3>Click to View</h3>
+						<p>We have some of the finest vehicles in the nation! Come and see our inventory for yourself, and book an appointment now!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--END PHOTO CONTAINER 4-->	
+			
+			<!--PHOTO CONTAINER 5-->
+			<div>
+				<div>
+					<img src="./1_pg_website_images/luxury_images_5.jpg" width="370"
+					height="320" alt="Rolls-Royce Phantom">
+					<div>
+						<h3>Click to View</h3>
+						<p>We have some of the finest vehicles in the nation! Come and see our inventory for yourself, and book an appointment now!
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--END PHOTO CONTAINER 5-->
+		<iframe src="https://youtu.be/Go7nAr7xHjM" title="Video of Inventory">
+		</iframe>
+			</div>
+		</div>
+	</section>
+	<!--END GALLERY-->
+	
+	<!--RVSP-->
+	<section>
+		<div id="contact">
+		</div>
+			<div>
+				<h1>Book an Appointment</h1>
+					<div>
+						<h2><span>100's of Luxury vehicles to choose from</span>
+							<br>Open Mon-Fri</br>
+							<br>9am-5pm</br>
+						</h2>
+							<p>
+							Please provide us with your basic contact information.
+							</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+								<div>
+							<input type="submit" value="Submit">
+								</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--END RSVP-->
+	
+	<!--FOOTER-->
+	<div>
+		www.luxurycarsofportland.com &nbsp;|&nbsp; &copy; 2022
+	</div>
+	<!--END FOOTER-->
+	</body>
+</html>
+						
+						
