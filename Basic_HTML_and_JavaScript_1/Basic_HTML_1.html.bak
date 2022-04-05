@@ -29,6 +29,12 @@ src="Basic_JavaScript_1.js">
 	<p>
 		<b>This is bold,</b><i> this is italicized </i> and <u> this is underlined</u>
 	</p> 
-		<img src="DameTime_over_PG.png" alt="Damian Lillard Game 5 buzzer beater" width="350" height="350" >
+		<img src="https://www.sportingnews.com/s3/files/styles/crop_style_16_9_tablet/s3/2021-08/damian-lillard-and-paul-george_16e9y2jb3bcr51oiymm87wiv9k.png?itok=nkMb4KN1" alt="Damian Lillard Game 5 buzzer beater" width="350" height="350" >
 		</img>
+	<body>
+		<p>
+			<a href="https://www.nba.com/blazers/" target="new">Trail Blazers</a>
+			<em>This text is emphasized.</em>
+		</p>
+	</body>
 </html>
