@@ -5,17 +5,14 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-	
+		
 	<!--NAV-->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link"><li>HOME</li></a>
-				<a href="#gallery"><li>GALLERY</li></a>
-				<a href="#contact"><li>SIGN UP</li></a>
-			</ul>
-		</div>
-	</div>
+
+			<nav>
+				<a href="/home/" id="link">HOME</a> |
+				<a href="#gallery"><li>GALLERY</li></a> |
+				<a href="#contact"><li>SIGN UP</li></a> |
+			</nav>
 	<!--END NAV-->
 	
 	<!--HOME-->
@@ -23,6 +20,8 @@
 		<div>
 			<div>
 				<span>2022 Portland Basketball Tournament</span>
+				<nav>
+			<a href="https://www.youtube.com/watch?v=Go7nAr7xHjM"></a>
 			</div>
 		</div>
 	</div>
@@ -37,7 +36,7 @@
 				<!--PHOTO CONTAINER 1-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_1.ng" alt="Court#1">
+						<img src="./images/thumb/thumbnail_1.png" alt="Court#1">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -49,7 +48,7 @@
 				<!--PHOTO CONTAINER 2-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_2.png" alt="">
+						<img src="./images/thumb/thumbnail_2.png" alt="Court#2">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -61,7 +60,7 @@
 				<!--PHOTO CONTAINER 3-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_3.jpg" alt="">
+						<img src="./images/thumb/thumbnail_3.jpg" alt="Court#3">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -73,7 +72,7 @@
 				<!--PHOTO CONTAINER 4-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_4.jpg" alt="">
+						<img src="./images/thumb/thumbnail_4.jpg" alt="Court#4">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -85,7 +84,7 @@
 				<!--PHOTO CONTAINER 5-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_5.jpg" alt="">
+						<img src="./images/thumb/thumbnail_5.jpg" alt="Court#5">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -97,7 +96,7 @@
 				<!--PHOTO CONTAINER 6-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_6.jpg" alt="">
+						<img src="./images/thumb/thumbnail_6.jpg" alt="Court#6">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -109,7 +108,7 @@
 				<!--PHOTO CONTAINER 7-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_7.jpg" alt="">
+						<img src="./images/thumb/thumbnail_7.jpg" alt="Court#7">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -121,7 +120,7 @@
 				<!--PHOTO CONTAINER 8-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_8.jpg" alt="">
+						<img src="./images/thumb/thumbnail_8.jpg" alt="Court#8">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -133,7 +132,7 @@
 				<!--PHOTO CONTAINER 9-->
 				<div>
 					<div>
-						<img src="./images/thumb/thumbnail_9.jpg" alt="">
+						<img src="./images/thumb/thumbnail_9.jpg" alt="Court#9">
 						<div>
 							<h3>Click to Enlarge</h3>
 							<p>We have some of the best talent in the world. Come take on the challenge, and sign up today!</p>
@@ -165,25 +164,25 @@
 								<input class="rsvp" type="text" value="Last Name">									
 								<input class="rsvp" type="text" value="Email Address">
 								<input class="rsvp" type="text" value="Phone Number">
-								<div class="form-spacer">
+							<div class="form-spacer">
 										<label class="terms">Terms and Conditions</label>
-						</div>
-					<div>
-										<input type="submit" value="Submit">
-									</div>
-								</form>
 							</div>
+						<div>
+							<input type="submit" value="Submit">
+						</div>
+							</form>
 						</div>
 					</div>
-				</div>
+			</div>
+		</div>
 			</section>
 			<!--END RSVP-->
 			
 			<!--FOOTER-->
-			<div>
-				www.portlandhoopstournament.org &nbsp;|&nbsp; &copy; 2022
-			</div>
-			<!--END FOOTER-->
+		<div>
+			www.portlandhoopstournament.org &nbsp;|&nbsp; &copy; 2022
+		</div>
+		<!--END FOOTER-->
 			
-		</body>
-	</html>
+	</body>
+</html>
