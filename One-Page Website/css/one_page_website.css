@@ -1,0 +1,26 @@
+p {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    font-size: 34px;
+}
+
+#contact {
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 18px;
+    border: 1px solid #29b6cf;
+}
