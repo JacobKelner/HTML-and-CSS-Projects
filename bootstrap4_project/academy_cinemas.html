@@ -43,11 +43,7 @@
         </div>
       </div>
 
-<!--KITCHEN SINK CARD CONTAINER-->
 
-
-
-  <!--/KITCHEN SINK CARD CONTAINER-->
   
 
       <div class="container">
@@ -64,17 +60,19 @@
             <a id="About"> 
               <a href="#About"></a>
               
+            <!--accomodations-->
           
             <h3 id="about"> Accommodations</h3>
             <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959</p>
             <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
             <p>All of our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
             <p>Relax in our, extra-wide, plush cushioning recliners. Our seating arrangment is disability friendly &#9855;.</p>
-
+            <!--end accomodations-->
 
           </div>
           <div class="col-sm">
           
+            <!--side section of movies-->
             <h3>Now Playing:</h3>
             <ul class="list-group">
               <li class="list-group-item">
@@ -90,11 +88,13 @@
           </div>
         </div>
       </div>
+          <!--end side section-->
 
       <!--SHOWTIMES-->
           <div class="container" id="showtimes">
               <div class="card-deck">
 
+                <!--column 1-->
                 <div class="card" style="width: 18rem;">
                   <img src="./Img/image_3.png" class="card-img-top" alt="">
                   <div class="card-body">
@@ -108,9 +108,10 @@
                       <span class="badge badge-pill badge-info">9:30pm</span>
                   </div>
                 </div>
+                <!--end column 1-->
           
           
-
+                <!--column 2-->
 
                 <div class="card" style="width: 18rem;">
                   <img src="./Img/image_1.png" class="card-img-top" alt="">
@@ -126,15 +127,15 @@
                   </div>
                 </div>
           
+                <!--end column 2-->
 
-
-        
+                <!--column 3-->
 
                 <div class="card" style="width: 18rem;">
                   <img src="./Img/image_2.png" class="card-img-top" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Kong: Skull Island</h5>
-                    <p class="card-text">In the early 1970’s, a group of scientists, soldiers, and adventurers journey to a mysterious island called Skull Island with the intent to study the theory of Hollow Earth. Once there, they encounter a 100-foot tall ape who attacks and destroys their helicopters. Now the survivors must battle their way through the vast dangers that exist on the island while avoiding the giant ape known as Kong.  </p>
+                    <p class="card-text">In the early 1970's, a group of scientists, soldiers, and adventurers journey to a mysterious island called Skull Island with the intent to study the theory of Hollow Earth. Once there, they encounter a 100-foot tall ape who attacks and destroys their helicopters. Now the survivors must battle their way through the vast dangers that exist on the island while avoiding the giant ape known as Kong.  </p>
                       <span class="badge badge-pill badge-info">12:00pm</span>
                       <span class="badge badge-pill badge-info">1:30pm</span>
                       <span class="badge badge-pill badge-info">3:00pm</span>
@@ -145,11 +146,34 @@
                 </div>
               </div>
           </div>
+                <!--end column 3-->
 
       <!--/SHOWTIMES-->
       
       <!--DEALS-->
-      
+      <!--jumbotron heading-->
+      <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+        <div class="container">
+          <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform:uppercase;">
+          Movie Deals</h1>
+          <p class="lead">Check out our monthly deals...</p>
+          <!--movie deals-->
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#register">See our monthly movie deals...</button>
+          <!--end movie deals-->
+         </div>
+      </div>
+      <!--end jumbotron heading-->
+
+
+
+
+
+
+
+
+
+
+
       <div id="deals">
         <a id="#deals">
 
@@ -158,13 +182,15 @@
 
 
 
-        
+    
       <!--/DEALS-->
-
+<!--sign up form-->
 
       <div class="text-center"> 
             <form>
-                <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+              <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email for great movie reward deals!">
+                Sign Up!
+              </button>
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               </div>
@@ -187,17 +213,87 @@
                   <small class="nav-link">&copy;2022 Academy Cinemas</small>
               </li>
           </ul>
-      </div>
-
-
-      
-
+        </div> 
     </div>
+    <!--end signup form-->
+
+
+    <!--form modal-->
+    <!--BUTTON-->
+
+    <div class="modal fade" id="register">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register to recieve movie deals</h5><!--physical button to have form popup-->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+    <!--END BUTTON-->
+
+    <!--INSIDE DATA ENTRIES-->
+
+          <form>
+            <fieldset class="form-group">
+              <label for="firstname">First Name:</label>
+              <input type="text" class="form-control" id="firstname" placeholder="First Name..."><!--type in first name to register/sign up for movie deals-->
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="lastname">Last Name:</label>
+              <input type="text" class="form-control" id="lastname" placeholder="Last Name..."><!--type in last name to register/sign up for movie deals-->
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder=" Email..."><!--type in email to register/sign up for movie deals-->
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" id="password" placeholder="Password..."><!--type in password to register/sign up for movie deals-->
+            </fieldset>
+          </form>
+    <!--END DATA ENTRIES-->
+
+          <!--PROGRESS BAR-->
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+          </div>
+          <!--END PROGRESS BAR-->
+         
+          <!--DATA ENTRY BUTTONS-->
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!--END ENTRY BUTTONS-->
+
+</body>
+
+    <!--end form modal-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+  $('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+</script>
+
+
+
+
+
+  
 </html>
